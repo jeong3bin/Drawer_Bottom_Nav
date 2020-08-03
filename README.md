@@ -1,12 +1,15 @@
 # Drawer_Bottom_Nav
-Application that have Navigation and Bottom Navigation
-
-
+Application that have Navigation and Bottom Navigation  
+<img src="https://user-images.githubusercontent.com/45004756/89139773-bd7c7c80-d57a-11ea-9ef6-5ba440b8a4c5.png" width="200" height="350"> 
+<img src="https://user-images.githubusercontent.com/45004756/89139777-beada980-d57a-11ea-98c7-8747a9e3f85f.png" width="200" height="350"> 
 ### Drawer Navigation custom
 `drawer_layout.xml`에서 Drawer Navigaton의 custom이 가능하다.  
 MainActivity.kt에서 view control 가능
 
 #### activity_main_drawer.xml
+코드 변경 시  
+<img src="https://user-images.githubusercontent.com/45004756/89139781-c0776d00-d57a-11ea-8faa-9a363d28a5e6.png" width="200" height="350"> 
+
 ```kotlin
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,7 +45,7 @@ MainActivity.kt에서 view control 가능
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_send" />
-        </menu>
+        </menu>  
     </item>
 
 </menu>
