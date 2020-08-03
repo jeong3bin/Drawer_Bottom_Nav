@@ -4,7 +4,8 @@ Application that have Navigation and Bottom Navigation
 <img src="https://user-images.githubusercontent.com/45004756/89139777-beada980-d57a-11ea-98c7-8747a9e3f85f.png" width="200" height="350"> 
 ### Drawer Navigation custom
 `drawer_layout.xml`에서 Drawer Navigaton의 custom이 가능하다.  
-MainActivity.kt에서 view control 가능
+MainActivity.kt에서 view control 가능  
+(RecyclerView 삽입)
 
 #### activity_main_drawer.xml
 코드 변경 시  
